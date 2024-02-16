@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    }
+
+    /*todos as vezes que a rolagem ultrapassar a tela ajustar o eixo x ou y com essa função*/
+    html {
+        overflow-x: hidden;
+    }
+
+    header {
+        background-color:rgb(89, 11, 153);
+        padding-top: 18px;
+        color: rgb(224, 136, 20);
+    }
+
+    header > .container {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 16px;
+    }
+
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        background-color: rgb(187, 126, 236);
+        padding: 16px 0;
+        display:none;
+        /* apos o display ser classificado como none, é necessario utilizar slideToggle na função do javascript*/
+
+    }
+
+    nav li {
+        list-style: none;
+        display: inline;
+        margin-right: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    nav li a {
+        color: rgb(138, 93, 35);
+        text-decoration: none;
+    }
+
+    .menu-hamburguer {
+        width: 32px;
+        cursor: pointer;
+    }
+
+    .menu-hamburguer span {
+        height: 2px;
+        width: 100%;
+        background-color: rgb(224, 136, 20);
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .container-flex {
+        display: flex;
+    }
+
+    #Sobre-a-loja img {
+        max-width: 400px;
+        margin-right: 24px;
+    }
+
+    section {
+        padding: 48px 0;
+    }
+
+    section h2 {
+        margin-bottom: 16px;
+    }
+
+    .lista-veiculos {
+        justify-content: space-between;
+        
+    }
+
+    .lista-veiculos li {
+    list-style:none;
+    max-width: 30% 
+   
+    
+    }
+
+    .lista-veiculos li img {
+        max-width: 100%;
+        
+    }
+
+    .lista-veiculos li h3 {
+        margin: 16px 0;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+        border: none;
+        background-color: rgb(187, 126, 236);
+        color:rgb(138, 93, 35);
+        font-size:16px;
+        font-weight: bold;
+        font-style: italic;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+    
+
+    .lista-veiculos li strong {
+        margin: 16px 0;
+        display: block;
+
+    }
+
+    .price {
+        margin: 16px 0;
+        display: block;
+    }
+        
+    .price del {
+        color:rgb(112, 103, 103);
+        font-size: 14px;
+        
+    }
+
+    .form-campo {
+    margin-bottom: 16px; 
+    }
+
+    .form-campo label {
+        font-weight: bold;
+        display:block;
+    }
+
+    .form-campo input,
+    .form-campo textarea {
+        width: 100%;
+        display: block;
+        padding: 8px;
+    }
+    
+    .form-campo textarea {
+        resize: none;
+        height: 120px;
+    }
+
+    form {
+        max-width: 360px;
+    }
+
+    form button {
+        max-width: 120px;
+        padding: 8px;
+        
+    }
+
+    footer {
+        background-color:rgb(89, 11, 153);
+        padding-top: 15px;
+    }
+
+    footer li {
+        list-style: none;
+        margin-left: 16px;
+    }
+
+    footer li img {
+        height: 32px;
+    }
+
+    footer .container {
+        justify-content: space-between;
+        align-items:right;
+        display:flex;
+        
+    }
+

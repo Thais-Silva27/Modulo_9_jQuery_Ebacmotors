@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="=IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebac motors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Roboto:ital,wght@1,300&display=swap" rel="folha de estilo">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    </head>
+<body>
+    <!----cabeçalho do site-->
+    <header>
+        <div class="container ">
+        <h1>EBAC Motors</h1>
+        <div class="menu-hamburguer">
+            <!---quando digitar comando e * + a quantidade de vezes que quer repetir ex: span* 3-->
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </div>        
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Em Destaque</a>
+                    </li>
+                    <li>
+                        <a href="#">Promoção</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!---Sobre a loja-->
+    <div id="carousel-imagens">
+        <img src="./slide1.png" alt="Carro da Porsche">
+        <img src="./slide2.png" alt="Carro da BMW">
+        <img src="./slide3.png" alt="Carro da Ford">
+    </div>
+    <section id="Sobre-a-loja">
+        <div class="container container-flex">
+            <img src="./loja.jpg" alt="Imagem da loja Ebac Motors">
+        <div>
+            <h2>Sobre a EBAC Motors</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit distinctio sapiente neque, sit illo, similique eaque odit esse porro voluptatem minima! Temporibus atque voluptates veniam ipsum officia qui distinctio non!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis natus necessitatibus ab recusandae commodi impedit voluptatum nemo voluptatibus ducimus a consequuntur, cupiditate et quo cum. Quae eum saepe repellendus unde.
+            </p>
+        </div>
+        </div>
+    </section>
+    <!--- secão principal-->
+    <section>
+        <div class="container">
+            <h2>Em Destaque</h2>
+            <ul class="container-flex lista-veiculos">
+                <li>
+                    <img src="./carro-bmw.png" alt="">
+                    <h3>Carro BMW</h3>
+                    <p>
+                        Descrição do carro : Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <strong> R$ 75.000,00</strong>
+                    <button type="button">tenho interese</button>
+                </li>
+                <li>
+                    <img src="./fusca.png" alt="">
+                    <h3>Fusca</h3>
+                    <p>
+                        Descrição do carro : Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <strong> R$ 25.000,00</strong>
+                    <button type="button">tenho interese</button>
+                </li>
+                <li>
+                    <img src="./moto-bmw.png" alt="">
+                    <h3>Carro BMW</h3>
+                    <p>
+                        Descrição do carro : Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <strong> R$ 42.000,00</strong>
+                    <button type="button">tenho interese</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!---promoção-->
+    <section>
+        <div class="container">
+            <h2>Promoção</h2>
+            <ul class="container-flex lista-veiculos">
+                <li>
+                    <img src="./carro-bmw.png" alt="">
+                    <h3>Carro BMW</h3>
+                    <p>
+                        Descrição do carro : Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <div class="price">
+                        <del>R$ 85.000,00</del>
+                    <strong> R$ 55.000,00</strong>
+                    </div>
+                    <button type="button">tenho interese</button>
+                </li>
+                <li>
+                    <img src="./fusca.png" alt="">
+                    <h3>Fusca</h3>
+                    <p>
+                        Descrição do carro : Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <div class="price">
+                        <del>R$ 30.000,00</del>
+                    <strong> R$ 18.000,00</strong>
+                    </div>
+                    <button type="button">tenho interese</button>
+                </li>
+                <li>
+                    <img src="./moto-bmw.png" alt="">
+                    <h3>Carro BMW</h3>
+                    <p>
+                        Descrição do carro : Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                    <div class="price">
+                        <del>R$ 45.000,00</del>
+                        </div>
+                    <strong> R$ 32.000,00</strong>
+                    <button type="button">tenho interese</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!---Formulario para contato-->
+    <section>
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="e-mail">E-mail:</label>
+                    <input type="email" id="email" name="email"> <!------sempre que usar o pluguin de validacao, acrescentar "name" conforme segue--->
+                </div>
+                <div class="form-campo">
+                    <label for="veiculo-interesse">Veiculo de interesse:</label>
+                    <input type="text" id="veiculo-interesse" name="veiculo-interesse">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                    <button type="submit">Enviar</button>                
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2024 &copy; EBAC Motors - Todos os direitos reservados
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./facebook.png"  alt="facebook" />"
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./instagram.png"  alt="instagram" />"
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./youtube.png"  alt="youtube" />"
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+<!----->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./jquery.mask.min.js"></script>
+    <script src="./jquery.validate.min.js"></script>
+    <script src="./messages_pt_BR.min.js"></script>
+    <script src="./main.JS"></script>
+    <!---atraves deste pluguin acima, é possivel traduzir para o idioma escolhido o jquery validate-->
+    </body>
+</html>
+<!----slideToggle será responsavel por mostrar a aba de menu oculto na pagina quando clicar no menu hamburguer ->
